@@ -55,7 +55,7 @@ public class SesionPencil extends Frame implements ActionListener, WindowListene
 		// TODO Auto-generated method stub
 		new SesionPencil();
 	}
-	public void actionPerformed1(ActionEvent eventoGenerado)
+	public void actionPerformed(ActionEvent eventoGenerado)
     {
             
             if(eventoGenerado.getSource().equals(cancelar))
@@ -112,11 +112,5 @@ public class SesionPencil extends Frame implements ActionListener, WindowListene
 		
 	}
 
-	@Override
-	public void actionPerformed(ActionEvent arg0)
-	{
-		// TODO Auto-generated method stub
-		
-	}
-
+	
 }
