@@ -84,6 +84,7 @@ public class AwtGBag2 extends Frame implements ActionListener, WindowListener
 		setLocationRelativeTo(null);
 		setSize(550,250);
 		setVisible(true);
+		
 	}
 	public static void main(String[] args)
 	{
