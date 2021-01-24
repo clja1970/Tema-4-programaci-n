@@ -9,14 +9,14 @@ public class AwtCheckbox1 extends Frame implements ActionListener, WindowListene
 {
 private static final long serialVersionUID = 1L;
 //En este caso, se pueden elegir todas las opciones que queramos
-Checkbox chkUno = new Checkbox("Opción Uno");
-Checkbox chkDos = new Checkbox("Opción Dos");
-Checkbox chkTres = new Checkbox("Opción Tres");
+Checkbox chkUno = new Checkbox("Opciï¿½n Uno");
+Checkbox chkDos = new Checkbox("Opciï¿½n Dos");
+Checkbox chkTres = new Checkbox("Opciï¿½n Tres");
 Button btncancelar = new Button("Cancelar");
 public AwtCheckbox1()
 {
 setLayout(new FlowLayout());
-setTitle("Botones de Opción");
+setTitle("Botones de OpciÃ³n");
 add(chkUno);
 add(chkDos);
 add(chkTres);
